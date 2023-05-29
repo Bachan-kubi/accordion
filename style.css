@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 10px auto;
+}
+.accordion{
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    padding: 0 20px;
+    border: none;
+    font-size: 25px;
+    font-weight: bolder;
+    transition: 0.3s;
+    background-color: #eee;
+    outline: none;
+}
+.panel{
+    padding: 20px;
+    display: none;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+.active, .accordion:hover {
+    background-color: #ccc; 
+  }
